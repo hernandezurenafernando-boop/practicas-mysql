@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS hotel;
+USE hotel;
+
+CREATE TABLE habitaciones (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  numero VARCHAR(10) NOT NULL UNIQUE,
+  tipo VARCHAR(20) NOT NULL,
+  precio_noche DECIMAL(8,2) NOT NULL
+);
