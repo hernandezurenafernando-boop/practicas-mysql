@@ -10,3 +10,4 @@ Ejecuta los scripts en orden en MySQL Workbench:
 2. `02_clientes.sql`
 3. `03_reservas.sql`
 4. `04_datos.sql`
+5. `05_consultas.sql`
