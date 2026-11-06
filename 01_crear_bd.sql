@@ -5,5 +5,5 @@ CREATE TABLE habitaciones (
   id INT AUTO_INCREMENT PRIMARY KEY,
   numero VARCHAR(10) NOT NULL UNIQUE,
   tipo VARCHAR(20) NOT NULL,
-  precio_noche DECIMAL(6,2) NOT NULL
+  precio_noche DECIMAL(10,2) NOT NULL
 );
